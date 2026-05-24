@@ -1,0 +1,14 @@
+{
+  "name": "claude-code-assistant",
+  "version": "1.0.0",
+  "files": [
+    "dist/claude-code-assistant.bundle.json",
+    "dist/README.md",
+    "claude_code_assistant.py",
+    "skills/claude-code-assistant/SKILL.md"
+  ],
+  "install": {
+    "copaw": "copaw skills install <bundle_url>",
+    "generic": "python cc_assistant.py"
+  }
+}
